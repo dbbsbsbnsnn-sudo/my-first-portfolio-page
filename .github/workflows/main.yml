@@ -12,5 +12,7 @@ jobs:
     steps:
       - name: Print First Step Name
         run: echo "Hello From my first step in my first github workflow"
+      - name: List My Files ⭐
+        run: ls -la
       
   
